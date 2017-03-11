@@ -9,7 +9,7 @@ app.config(function($routeProvider, $locationProvider) {
         })
         .when("/viewsubreddit", {
             controller: "viewCtrl",
-            templateUrl: "view/displaypaage.html"
+            templateUrl: "view/displaypage.html"
         });
 
     $locationProvider.hashPrefix("");

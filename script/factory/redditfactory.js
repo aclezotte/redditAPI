@@ -1,18 +1,7 @@
-var app = angular.module("coolApp");
+var app = angular.module("redditApp");
 
-app.factory("awesomeFactory", function() {
-    var ourInfo = {};
+app.factory("redditFactory", function() {
 
-    return {
-        pass: function(name, age, favFood) {
-            ourInfo.name = name;
-            ourInfo.age = age;
-            ourInfo.favFood = favFood;
-            console.log(ourInfo);
-        },
-        bringItBack: function() {
-            return ourInfo;
-        }
-    };
+    return {};
 
 });
