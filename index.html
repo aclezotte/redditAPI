@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="redditApp">
     <head>
         <meta charset="utf-8">
         <title>Reddit API Demo</title>
     </head>
     <body>
+        <a href="#/userinput">Search</a>
+        <a href="#/viewsubreddit">View</a>
         <ng-view></ng-view>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
         <script src="script/module/module.js"></script>
-        <script src="script/factory/redditFactory.js"></script>
-        <script src="script/controller/userInput.js"></script>
-        <script src="script/controller/viewSubreddit.js"></script>
+        <script src="script/controller/userinput.js"></script>
+        <script src="script/controller/viewsubreddit.js"></script>
+        <script src="script/factory/redditfactory.js"></script>
     </body>
 </html>

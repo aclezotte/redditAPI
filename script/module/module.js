@@ -3,13 +3,13 @@ var app = angular.module("redditApp", ["ngRoute"]);
 app.config(function($routeProvider, $locationProvider) {
 
     $routeProvider
-        .when("/userInput", {
+        .when("/userinput", {
             controller: "inputCtrl",
-            templateUrl: "view/searchPage.html"
+            templateUrl: "view/searchpage.html"
         })
-        .when("/viewSubreddit", {
+        .when("/viewsubreddit", {
             controller: "viewCtrl",
-            templateUrl: "view/displayPage.html"
+            templateUrl: "view/displaypaage.html"
         });
 
     $locationProvider.hashPrefix("");
