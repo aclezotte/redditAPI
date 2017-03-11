@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html ng-app="redditApp">
+<html ng-app="redditApp">   <!--bind this page to redditApp module-->
     <head>
         <meta charset="utf-8">
         <title>Reddit API Demo</title>
     </head>
     <body>
-        <a href="#/userinput">Search</a>
-        <a href="#/viewsubreddit">View</a>
-        <ng-view></ng-view>
+        <a href="#/userinput">Search</a>    <!--link to userinput view-->
+        <a href="#/viewsubreddit">View</a>  <!--link to viewsubreddit view-->
+        <ng-view></ng-view> <!--container for views-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
         <script src="script/module/module.js"></script>
